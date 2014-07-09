@@ -40,32 +40,6 @@ def addTemplate(core):
 	attacks.add('fs_ae_dm_cc_6')
 	attacks.add('col_jedi_statue_dark_debuff')
 	mobileTemplate.setAttacks(attacks)
-
-
-	lootPoolNames_1 = ['Junk']
-	lootPoolChances_1 = [100]
-	lootGroupChance_1 = 65
-	mobileTemplate.addToLootGroups(lootPoolNames_1,lootPoolChances_1,lootGroupChance_1)
-	
-	lootPoolNames_2 = ['jedi_relic_1']
-	lootPoolChances_2 = [100]
-	lootGroupChance_2 = 30
-	mobileTemplate.addToLootGroups(lootPoolNames_2,lootPoolChances_2,lootGroupChance_2)
-	
-	lootPoolNames_3 = ['powercrystals_hiq']
-	lootPoolChances_3 = [100]
-	lootGroupChance_3 = 12
-	mobileTemplate.addToLootGroups(lootPoolNames_3,lootPoolChances_3,lootGroupChance_3)
-	
-	lootPoolNames_4 = ['random_stat_jewelry']
-	lootPoolChances_4 = [100]
-	lootGroupChance_4 = 8
-	mobileTemplate.addToLootGroups(lootPoolNames_4,lootPoolChances_4,lootGroupChance_4)
-
-	lootPoolNames_5 = ['sithholocrons']
-	lootPoolChances_5 = [100]
-	lootGroupChance_5 = 3
-	mobileTemplate.addToLootGroups(lootPoolNames_5,lootPoolChances_5,lootGroupChance_5)
 	
 	core.spawnService.addMobileTemplate('jedi_robe_dark_jedi', mobileTemplate)
 	
