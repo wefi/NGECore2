@@ -14,6 +14,6 @@ def addPlanetSpawns(core, planet):
 	objSvc = core.objectService
 
 	# test for NPCs
-	darkjedistature = stcSvc.spawnObject('jedi_robe_dark_jedi', 'tatooine', long(0), float(3569), float(5), float(-4611), float(0), float(0), float(0), float(0), 45)
+	#darkjedistature = stcSvc.spawnObject('jedi_robe_dark_jedi', 'tatooine', long(0), float(3569), float(5), float(-4611), float(0), float(0), float(0), float(0), 45)
 	
 	return	
